@@ -59,24 +59,26 @@
       <!-- header-section -->
       <header class="header-section">
         <div class="header-in">
-          <div class="container">
+          <div class="container-fluid">
             <div class="header-section__inner">
               <a href="index.html" class="header__logo">
                 <img src="images/logo.png" alt="" />
               </a>
 
-              <div class="main-menu">
-                <ul>
-                  <li><a href="#">Für jeden Anlass</a></li>
-                  <li><a href="#">Ein plan der lage</a></li>
-                  <li><a href="#">Gut zu wissen</a></li>
-                </ul>
-              </div>
-              <div class="heder-buttons">
-                <a href="#" class="default-button">Jetzt anfragen</a>
-                <a href="#" class="default-button default-button--dark"
-                  >Download broschüre
-                </a>
+              <div class="header__main">
+                <div class="main-menu">
+                  <ul>
+                    <li><a href="#">Für jeden Anlass</a></li>
+                    <li><a href="#">Ein plan der lage</a></li>
+                    <li><a href="#">Gut zu wissen</a></li>
+                  </ul>
+                </div>
+                <div class="buttons-menu">
+                  <a href="#" class="default-button button">Jetzt anfragen</a>
+                  <a href="#" class="default-button button default-button--dark"
+                    >Download broschüre
+                  </a>
+                </div>
               </div>
             </div>
           </div>
@@ -88,27 +90,36 @@
       <main>
         <!-- hero-section -->
         <section class="hero-section">
-          <div class="hero-slider">
-            <div class="hero-slide">
+          <div class="hero-slider hero-slider-active owl-carousel">
+            <div
+              class="hero-slide"
+              style="
+                background: url('images/hero-img.png') no-repeat center
+                  center/cover;
+              "
+            >
               <div class="container">
                 <div class="hero-slide__inner">
                   <div class="hero-slide__content">
-                    <h1 class="h1 mb-0">Ein Raum - unzählige Möglichkeiten</h1>
-                  </div>
-                  <div class="hero-sht">
-                    <h4 class="mb-0">DATUM</h4>
-                    <a href="#" class="sel-button sel-button--white">
-                      <div class="icon">
-                        <i class="fab fa-calendar"></i>
-                      </div>
-                      <span class="in-select">Dienstag, 14 Februar 2023</span>
-                      <i class="far fa-chevron-down l-chevron">p</i>
-                    </a>
-                    <a href="#" class="sel-button">Jetzt anfragen</a>
+                    <h1 class="h1 mb-0">
+                      Ein Raum - unzählige <br class="d-md-block d-none" />
+                      Möglichkeiten
+                    </h1>
                   </div>
                 </div>
               </div>
             </div>
+          </div>
+          <div class="hero-sht">
+            <h4 class="mb-0">DATUM</h4>
+            <a href="#contact-section" class="sel-button sel-button--white">
+              <div class="icon">
+                <i class="fal fa-calendar--alt"></i>
+              </div>
+              <span class="in-select">Dienstag, 14 Februar 2023</span>
+              <i class="far fa-chevron-down l-chevron"></i>
+            </a>
+            <a href="#contact-section" class="sel-button">Jetzt anfragen</a>
           </div>
         </section>
         <!-- hero-section end -->
@@ -121,31 +132,145 @@
                 <div class="section-a-left">
                   <div class="tab-nav">
                     <ul class="nav">
-                      <li><a class="active" href="#">Gala-dinner </a></li>
-                      <li><a href="#">Meeting </a></li>
-                      <li><a href="#">Networking </a></li>
-                      <li><a href="#">Produktpräsentation</a></li>
+                      <li>
+                        <a
+                          data-bs-toggle="tab"
+                          data-bs-target="#a-tab-pane-1"
+                          class="active"
+                          href="#"
+                          >Gala-dinner
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          data-bs-toggle="tab"
+                          data-bs-target="#a-tab-pane-2"
+                          href="#"
+                          >Meeting
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          data-bs-toggle="tab"
+                          data-bs-target="#a-tab-pane-3"
+                          href="#"
+                          >Networking
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          data-bs-toggle="tab"
+                          data-bs-target="#a-tab-pane-4"
+                          href="#"
+                          >Produktpräsentation</a
+                        >
+                      </li>
                     </ul>
                   </div>
-                  <div class="cont-blk">
-                    <h4 class="h4">Erste Eindrücke</h4>
-                    <h2 class="h2">Gala-dinner</h2>
-                    <p>
-                      Sie planen ein kulinarisches Event? Ob als kommunikative
-                      Kochwerkstatt, für Präsentationen und Probeessen, oder als
-                      leistungsstarkes Live-Cooking Buffet - vieles ist möglich.
-                      Die offene und moderne Showküche bietet die perfekte Basis
-                      für Ihre Veranstaltung in einem modernen Ambiete.
-                    </p>
-                    <p>
-                      Profitieren Sie zudem von unserem umfangreichen
-                      Tabletop-Portfolio - von traditionell bis ausgefallen. Wir
-                      stellen für jeden Anlass ein erfahrenes Beratungsteam an
-                      Ihre Seite.
-                    </p>
-                    <a href="#" class="bottom-button default-button"
-                      >MUSTERPLANUNG: Gala-dinner</a
+                  <div class="a-tab-content tab-content">
+                    <!-- tab-pane -->
+                    <div
+                      class="a-tab-pane tab-pane fade show active"
+                      id="a-tab-pane-1"
                     >
+                      <div class="cont-blk">
+                        <h4 class="h4">Erste Eindrücke</h4>
+                        <h2 class="h2">Gala-dinner</h2>
+                        <p>
+                          Sie planen ein kulinarisches Event? Ob als
+                          kommunikative Kochwerkstatt, für Präsentationen und
+                          Probeessen, oder als leistungsstarkes Live-Cooking
+                          Buffet - vieles ist möglich. Die offene und moderne
+                          Showküche bietet die perfekte Basis für Ihre
+                          Veranstaltung in einem modernen Ambiete.
+                        </p>
+                        <p>
+                          Profitieren Sie zudem von unserem umfangreichen
+                          Tabletop-Portfolio - von traditionell bis ausgefallen.
+                          Wir stellen für jeden Anlass ein erfahrenes
+                          Beratungsteam an Ihre Seite.
+                        </p>
+                        <a href="#" class="bottom-button default-button"
+                          >MUSTERPLANUNG: Gala-dinner</a
+                        >
+                      </div>
+                    </div>
+                    <!-- tab-pane -->
+                    <!-- tab-pane -->
+                    <div class="a-tab-pane tab-pane fade" id="a-tab-pane-2">
+                      <div class="cont-blk">
+                        <h4 class="h4">Erste Eindrücke</h4>
+                        <h2 class="h2">Gala-dinner</h2>
+                        <p>
+                          Sie planen ein kulinarisches Event? Ob als
+                          kommunikative Kochwerkstatt, für Präsentationen und
+                          Probeessen, oder als leistungsstarkes Live-Cooking
+                          Buffet - vieles ist möglich. Die offene und moderne
+                          Showküche bietet die perfekte Basis für Ihre
+                          Veranstaltung in einem modernen Ambiete.
+                        </p>
+                        <p>
+                          Profitieren Sie zudem von unserem umfangreichen
+                          Tabletop-Portfolio - von traditionell bis ausgefallen.
+                          Wir stellen für jeden Anlass ein erfahrenes
+                          Beratungsteam an Ihre Seite.
+                        </p>
+                        <a href="#" class="bottom-button default-button"
+                          >MUSTERPLANUNG: Gala-dinner</a
+                        >
+                      </div>
+                    </div>
+                    <!-- tab-pane -->
+                    <!-- tab-pane -->
+                    <div class="a-tab-pane tab-pane fade" id="a-tab-pane-3">
+                      <div class="cont-blk">
+                        <h4 class="h4">Erste Eindrücke</h4>
+                        <h2 class="h2">Gala-dinner</h2>
+                        <p>
+                          Sie planen ein kulinarisches Event? Ob als
+                          kommunikative Kochwerkstatt, für Präsentationen und
+                          Probeessen, oder als leistungsstarkes Live-Cooking
+                          Buffet - vieles ist möglich. Die offene und moderne
+                          Showküche bietet die perfekte Basis für Ihre
+                          Veranstaltung in einem modernen Ambiete.
+                        </p>
+                        <p>
+                          Profitieren Sie zudem von unserem umfangreichen
+                          Tabletop-Portfolio - von traditionell bis ausgefallen.
+                          Wir stellen für jeden Anlass ein erfahrenes
+                          Beratungsteam an Ihre Seite.
+                        </p>
+                        <a href="#" class="bottom-button default-button"
+                          >MUSTERPLANUNG: Gala-dinner</a
+                        >
+                      </div>
+                    </div>
+                    <!-- tab-pane -->
+                    <!-- tab-pane -->
+                    <div class="a-tab-pane tab-pane fade" id="a-tab-pane-4">
+                      <div class="cont-blk">
+                        <h4 class="h4">Erste Eindrücke</h4>
+                        <h2 class="h2">Gala-dinner</h2>
+                        <p>
+                          Sie planen ein kulinarisches Event? Ob als
+                          kommunikative Kochwerkstatt, für Präsentationen und
+                          Probeessen, oder als leistungsstarkes Live-Cooking
+                          Buffet - vieles ist möglich. Die offene und moderne
+                          Showküche bietet die perfekte Basis für Ihre
+                          Veranstaltung in einem modernen Ambiete.
+                        </p>
+                        <p>
+                          Profitieren Sie zudem von unserem umfangreichen
+                          Tabletop-Portfolio - von traditionell bis ausgefallen.
+                          Wir stellen für jeden Anlass ein erfahrenes
+                          Beratungsteam an Ihre Seite.
+                        </p>
+                        <a href="#" class="bottom-button default-button"
+                          >MUSTERPLANUNG: Gala-dinner</a
+                        >
+                      </div>
+                    </div>
+                    <!-- tab-pane -->
                   </div>
                 </div>
                 <div class="section-a-right">
@@ -218,6 +343,18 @@
                 <div class="feed-slide">
                   <img src="images/instagram-feed-1.png" alt="" class="img" />
                 </div>
+                <div class="feed-slide">
+                  <img src="images/instagram-feed-1.png" alt="" class="img" />
+                </div>
+                <div class="feed-slide">
+                  <img src="images/instagram-feed-2.png" alt="" class="img" />
+                </div>
+                <div class="feed-slide">
+                  <img src="images/instagram-feed-3.png" alt="" class="img" />
+                </div>
+                <div class="feed-slide">
+                  <img src="images/instagram-feed-1.png" alt="" class="img" />
+                </div>
               </div>
             </div>
           </div>
@@ -225,41 +362,37 @@
         <!-- feed-section-end -->
 
         <!-- contact-section -->
-        <section class="contact-section">
+        <section class="contact-section" id="contact-section">
           <div class="container">
             <div class="contact-section__inner">
               <div class="row">
                 <div class="col-lg-4">
-                  <h2 class="h2">Kontakt</h2>
-                  <ul class="contact-ul">
-                    <li>
-                      <a href="#">
-                        <span class="txt">Bis 17:30 Uhr</span>
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="TEL:+49 7195 95982 0
-									"
-                      >
-                        <div class="icon">
-                          <i class="far fa-phone-alt"></i>
-                        </div>
-                        <span class="txt">+49 7195 95982 0 </span>
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="mailto:hello@station-14.com
-									"
-                      >
-                        <div class="icon">
-                          <i class="far fa-plane-alt"></i>
-                        </div>
-                        <span class="txt">hello@station-14.com </span>
-                      </a>
-                    </li>
-                  </ul>
+                  <div class="contact-section__left">
+                    <h2 class="h2">Kontakt</h2>
+                    <ul class="contact-ul">
+                      <li>
+                        <a href="#">
+                          <span class="txt">Bis 17:30 Uhr</span>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="TEL:+49 7195 95982 0">
+                          <div class="icon">
+                            <i class="fal fa-phone-alt"></i>
+                          </div>
+                          <span class="txt">+49 7195 95982 0 </span>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="mailto:hello@station-14.com">
+                          <div class="icon">
+                            <i class="fal fa-paper-plane"></i>
+                          </div>
+                          <span class="txt">hello@station-14.com </span>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
                 </div>
                 <div class="col-lg-8">
                   <div class="inquiry-form">
@@ -272,28 +405,28 @@
                           <label>DATUM</label>
                           <div class="sel-button">
                             <div class="icon">
-                              <i class="fab fa-calendar"></i>
+                              <i class="fal fa-calendar-alt"></i>
                             </div>
                             <select class="in-select">
                               <option>Dienstag, 14 Februar 2023</option>
                               <option>Dienstag, 15 Februar 2023</option>
                               <option>Dienstag, 16 Februar 2023</option>
                             </select>
-                            <i class="far fa-chevron-down l-chevron">p</i>
+                            <i class="far fa-chevron-down l-chevron"></i>
                           </div>
                         </div>
                         <div class="sel-button-outer">
                           <label>ZEIT</label>
                           <div class="sel-button">
                             <div class="icon">
-                              <i class="fab fa-clock"></i>
+                              <i class="fal fa-clock"></i>
                             </div>
                             <select class="in-select">
                               <option>8:30 Uhr</option>
                               <option>9:30 Uhr</option>
                               <option>10:30 Uhr</option>
                             </select>
-                            <i class="far fa-chevron-down l-chevron">p</i>
+                            <i class="far fa-chevron-down l-chevron"></i>
                           </div>
                         </div>
                       </div>
@@ -353,7 +486,10 @@
                       </div>
                       <div class="single-input-x">
                         <label class="check-label-x">
-                          <input type="checkbox" class="checkbox-round" />
+                          <input
+                            type="checkbox"
+                            class="checkbox-round checkbox"
+                          />
                           <span class="txt"
                             >Mit dem Absenden dieses Formulars erkläre ich mich
                             damit einverstanden, dass meine Daten wie in der
@@ -363,7 +499,9 @@
                         </label>
                       </div>
                       <div class="form-bottom">
-                        <a href="#" class="default-button">Jetzt anfragen</a>
+                        <a href="#" class="default-button submit-button"
+                          >Jetzt anfragen</a
+                        >
                       </div>
                     </div>
                   </div>
@@ -502,7 +640,7 @@
 												"
                   >
                     <div class="icon">
-                      <i class="far fa-phone-alt"></i>
+                      <i class="fal fa-phone-alt"></i>
                     </div>
                     <span class="txt">+49 7195 95982 0 </span>
                   </a>
@@ -513,7 +651,7 @@
 												"
                   >
                     <div class="icon">
-                      <i class="far fa-plane-alt"></i>
+                      <i class="fal fa-paper-plane"></i>
                     </div>
                     <span class="txt">hello@station-14.com </span>
                   </a>

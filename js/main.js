@@ -25,6 +25,46 @@
   });
 
   // owl-carousel
+  $(".hero-slider-active").owlCarousel({
+    loop: true,
+    margin: 0,
+    responsiveClass: true,
+    nav: false,
+    dots: false,
+    navText: [
+      '<span class="fas fa-chevron-left fa-2x"></span>',
+      '<span class="fas fa-chevron-right fa-2x"></span>',
+    ],
+    items: 1,
+  });
+  $(".a-img-slider-active").owlCarousel({
+    loop: true,
+    margin: 0,
+    responsiveClass: true,
+    nav: false,
+    dots: true,
+    navText: [
+      '<span class="fas fa-chevron-left fa-2x"></span>',
+      '<span class="fas fa-chevron-right fa-2x"></span>',
+    ],
+    items: 1,
+  });
+  $(".feed-slider-active").owlCarousel({
+    loop: false,
+    margin: 19,
+    responsiveClass: true,
+    nav: false,
+    autoWidth: true,
+    navText: [
+      '<span class="fas fa-chevron-left fa-2x"></span>',
+      '<span class="fas fa-chevron-right fa-2x"></span>',
+    ],
+    responsive: {
+      0: {},
+      600: {},
+      1000: {},
+    },
+  });
   $(".brand-active").owlCarousel({
     loop: true,
     margin: 50,
