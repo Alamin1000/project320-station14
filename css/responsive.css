@@ -1,4 +1,246 @@
+@media (max-width: 1599px) {
+    .header__logo {
+        width: 220px;
+    }
+    .header__logo img {
+        margin-bottom: -30px;
+    }
+    .main-menu > ul > li > a {
+        font-size: 13px;
+    }
+    .main-menu > ul {
+        gap: 30px;
+    }
+    .default-button {
+        min-height: 36px;
+        padding: 4px 14px;
+        font-size: 13px;
+    }
+    .buttons-menu {
+        gap: 30px;
+    }
+    .header__main {
+        gap: 30px;
+    }
+    .header-in {
+        padding: 33px 5%;
+    }
 
+
+    .hero-slide__content .h1 {
+        font-size: 40px;
+    }
+    .hero-slide__content {
+        max-width: 580px;
+    }
+    .hero-slide__inner {
+        min-height: 600px;
+        padding: 30px 0 0;
+    }
+    .hero-sht h4 {
+        font-size: 14px;
+    }
+    .hero-sht {
+        padding: 22px 27px 22px 33px;
+        gap: 25px;
+    }
+
+
+    .section-a {
+        padding: 120px 0 0;
+    }
+    .h4 {
+        font-size: 18px;
+        margin: 0 0 16px;
+    }
+    .h2 {
+        font-size: 45px;
+        margin: 0 0 30px;
+    }
+    p {
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+    .bottom-button {
+        margin-top: 8px;
+    }
+    .tab-nav ul li a {
+        font-size: 16px;
+        padding: 7px 9px;
+    }
+    .section-a-left {
+        padding-right: 50px;
+    }
+    .a-img-slide {
+        height: 550px;
+    }
+    .slider-dots-1 .owl-dot {
+        height: 15px;
+        width: 15px;
+    }
+    .slider-dots-1 .owl-dots {
+        gap: 8px;
+    }
+    .a-img-slider .owl-dots {
+        bottom: 50px;
+        left: 40px;
+    }
+
+    .download-section__inner {
+        padding: 100px 0 110px;
+    }
+    .download__book__img {
+        margin: -66px 0 -65px;
+    }
+    .download__buttons-bt {
+        padding-right: 160px;
+    }
+    .download-section__inner::before {
+        right: 530px;
+        bottom: 116px;
+    }
+    .download-section__inner::after {
+        height: 140px;
+    }
+
+
+    .feed-section {
+        padding: 60px 0 100px;
+    }
+    .feed-section__title .h2 {
+        margin: 0 0 22px;
+    }
+    .feed-section__title {
+        margin: 0 0 32px;
+    }
+    .feed-slide {
+        width: 340px;
+    }
+    .feed-slider .owl-dots {
+        width: 420px;
+        margin-top: 30px;
+    }
+
+    
+
+    .contact-section__inner {
+        padding: 80px 0 80px;
+    }
+    .contact-section__left .h2 {
+        margin: 0 0 40px;
+    }
+    .contact-ul a {
+        font-size: 16px;
+        gap: 6px;
+    }
+    .contact-ul {
+        gap: 6px;
+    }
+
+
+    .sel-button-outer label {
+        font-size: 15px;
+        margin: 0 0 12px 15px;
+    }
+    .sel-button {
+        font-size: 14px;
+        padding: 5px 15px;
+        min-height: 44px;
+        gap: 15px;
+    }
+    .form__sel-buttons {
+        gap: 30px;
+        margin-bottom: 13px;
+    }
+    .input-x {
+        padding: 13px 25px;
+        font-size: 18px;
+    }
+    .checkbox-round {
+        height: 17px;
+        width: 17px;
+    }
+    .checkbox-round::before {
+        border-width: 2px;
+    }
+    .check-label-x {
+        padding: 13px 0 0 15px;
+        gap: 19px;
+        font-size: 16px;
+    }
+    .contact-section__inner::before {
+        height: 450px;
+    }
+    .form-bottom .submit-button {
+        margin-top: 25px;
+    }
+    .location-section {
+        padding: 40px 0 22px;
+    }
+
+
+    .location__u-box h4 {
+        font-size: 16px;
+        margin: 0 0 30px;
+    }
+    .lk-ul li {
+        font-size: 16px;
+        padding-left: 30px;
+    }
+    .lk-ul li::before {
+        height: 12px;
+        width: 12px;
+        border-width: 3px;
+    }
+    .lk-ul {
+        gap: 10px;
+    }
+    .location__u-box {
+        padding: 30px;
+    }
+    .location-section__title {
+        margin: 0 0 25px;
+    }
+    .location__u-box-2 {
+        margin-top: -75px;
+    }
+
+
+    .know-section__inner {
+        padding: 100px 10% 100px;
+    }
+    .know-section__title {
+        margin: 0 0 50px;
+    }
+    .know-section__inner::after {
+        height: 370px;
+    }
+    .know-section-content p {
+        margin-bottom: 30px;
+    }
+
+
+    .footer-logo {
+        width: 220px;
+        margin: 0 0 25px;
+    }
+    .footer-menu-row {
+        gap: 30px;
+        margin-top: 30px;
+    }
+    .footer-top {
+        padding: 55px 0 20px;
+    }
+    .f-menu li a {
+        font-size: 12px;
+    }
+    .f-menu {
+        gap: 23px;
+    }
+    .footer-bottom {
+        padding: 15px 0 25px;
+    }
+}
 
 @media (max-width: 1399px) {
  
@@ -6,17 +248,158 @@
 
 
 @media (max-width: 1199px) {
- 
+    .feed-slide {
+        width: 300px;
+    }
 }
 
 
 @media (max-width: 991px) {
- 
+    .section-a-row {
+        flex-wrap: wrap;
+    }
+    .section-a-left {
+        padding-right: 0;
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    .section-a-right {
+        --scrollbar-width: 0px;
+        width: calc(100vw - var(--scrollbar-width));
+        flex-shrink: 0;
+        margin-left: calc(((100vw - var(--scrollbar-width)) - 100%) * -0.5);
+    }
+
+
+    .download__book__img {
+        margin: -30px 0 -50px;
+    }
+    .download__buttons-bt {
+        padding-right: 0;
+    }
+    .feed-slide {
+        width: 220px;
+    }
+
+    .inquiry-form__title {
+        margin: 0 0 30px;
+    }
+    .contact-section__inner::before {
+        display: none;
+    }
+
+    .location__u-box-2 {
+        margin-top: 0px;
+    }
+
+    .know-section__inner::after {
+        display: none;
+    }
+    .know-section__inner {
+        padding: 100px 0% 100px;
+    }
+
+    .footer-menu-row {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 }
 
 
 @media (max-width: 768px) {
- 
+    .header__logo {
+        width: 150px;
+    }
+    .header__logo img {
+        margin-bottom: -18px;
+    }
+    .header-in {
+        padding: 20px 5%;
+    }
+    .hero-slide__content .h1 {
+        font-size: 27px;
+    }
+
+    .hero-slide__inner {
+        min-height: 550px;
+        padding: 30px 0 0;
+    }
+    .hero-sht {
+        gap: 12px;
+        flex-direction: column;
+    }
+
+
+    .tab-nav ul li a {
+        font-size: 14px;
+        padding: 5px 9px;
+        border-bottom-width: 1px;
+    }
+    .tab-nav {
+        margin: 0 0 30px;
+    }
+    .h4 {
+        font-size: 16px;
+        margin: 0 0 12px;
+    }
+    .h2 {
+        font-size: 30px;
+        margin: 0 0 20px;
+    }
+    .a-img-slide {
+        height: 300px;
+    }
+    .a-img-slider .owl-dots {
+        bottom: 25px;
+        left: 20px;
+    }
+
+    .download__book__img {
+        margin: 10px 0 20px;
+    }
+    .download-section__inner {
+        padding: 50px 0 60px;
+    }
+    .feed-slide {
+        width: 150px;
+    }
+
+
+    .contact-section__inner {
+        padding: 60px 0 60px;
+    }
+    .form__sel-buttons {
+        gap: 18px;
+        margin-bottom: 13px;
+    }
+
+    .location__u-box {
+        padding: 20px;
+    }
+
+
+    .know-section__inner {
+        padding: 60px 0% 60px;
+    }
+    .know-section__title {
+        margin: 0 0 30px;
+    }
+    .main-menu > ul {
+        gap: 10px;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+    .buttons-menu {
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+    .f-menu {
+        gap: 10px;
+        flex-wrap: wrap;
+        justify-content: center;
+        flex-direction: column;
+    }
 }
 
 
@@ -25,6 +408,8 @@
 }
 
 
-@media (max-width: 390px) {
- 
+@media (max-width: 370px) {
+    .hero-slide__content .h1 {
+        font-size: 25px;
+    }
 }

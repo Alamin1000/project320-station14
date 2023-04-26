@@ -26,6 +26,10 @@
     color: #fff;
     background: #000;
 }
+
+.default-button--white {
+    background: #fff;
+}
 /* buttons-end */
 
 

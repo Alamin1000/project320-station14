@@ -29,29 +29,14 @@
     <div class="main-wrap">
       <!-- offcanvas-start -->
       <div class="offcanvas-menu">
-        <ul class="offmenu" id="menuParent">
-          <a href="#" class="offcanvas-close"><i class="fa fa-times"></i></a>
-          <li class="active"><a href="#">HOME</a></li>
-          <li><a href="#">ABOUT US</a></li>
-          <li class="dropdown">
-            <a href="#" data-bs-toggle="collapse" data-bs-target="#drop-menu1"
-              >OUR HORSES</a
-            >
-            <div
-              class="dropdown-menu-custom collapse"
-              id="drop-menu1"
-              data-bs-parent="#menuParent"
-            >
-              <ul>
-                <li><a href="#">YEARLINGS</a></li>
-                <li><a href="#">2 YEAR OLDS</a></li>
-                <li><a href="#">3 YEAR OLD PLUS</a></li>
-              </ul>
-            </div>
-          </li>
-          <li><a href="#">LATEST NEWS</a></li>
-          <li><a href="#">CONTACT & FIND US</a></li>
-        </ul>
+        <div class="offmenu" id="menuParent">
+          <a href="#" class="offcanvas-close"><i class="fal fa-times"></i></a>
+          <ul class="mobile-menu">
+            <li><a href="#occation-section">Für jeden Anlass</a></li>
+            <li><a href="#location-section">Ein plan der lage</a></li>
+            <li><a href="#know-section">Gut zu wissen</a></li>
+          </ul>
+        </div>
       </div>
       <div class="offcanvas-overlay"></div>
       <!-- offcanvas-start-end -->
@@ -65,12 +50,12 @@
                 <img src="images/logo.png" alt="" />
               </a>
 
-              <div class="header__main">
+              <div class="header__main d-xl-flex d-none">
                 <div class="main-menu">
                   <ul>
-                    <li><a href="#">Für jeden Anlass</a></li>
-                    <li><a href="#">Ein plan der lage</a></li>
-                    <li><a href="#">Gut zu wissen</a></li>
+                    <li><a href="#occation-section">Für jeden Anlass</a></li>
+                    <li><a href="#location-section">Ein plan der lage</a></li>
+                    <li><a href="#know-section">Gut zu wissen</a></li>
                   </ul>
                 </div>
                 <div class="buttons-menu">
@@ -80,6 +65,9 @@
                   </a>
                 </div>
               </div>
+              <a href="#" class="offcanvas-open d-xl-none ms-auto">
+                <i class="far fa-bars"></i>
+              </a>
             </div>
           </div>
         </div>
@@ -125,7 +113,7 @@
         <!-- hero-section end -->
 
         <!-- section-a -->
-        <section class="section-a">
+        <section class="section-a" id="occation-section">
           <div class="container">
             <div class="section-a__inner">
               <div class="section-a-row">
@@ -325,7 +313,7 @@
                   Ideen zur <br />
                   Inspiration
                 </h2>
-                <h4 class="mb-0">Zu Instagram</h4>
+                <h4 class="mb-0 h4">Zu Instagram</h4>
               </div>
 
               <div
@@ -365,7 +353,7 @@
         <section class="contact-section" id="contact-section">
           <div class="container">
             <div class="contact-section__inner">
-              <div class="row">
+              <div class="row gy-lg-0 gy-5">
                 <div class="col-lg-4">
                   <div class="contact-section__left">
                     <h2 class="h2">Kontakt</h2>
@@ -513,7 +501,7 @@
         <!-- contact-section-end -->
 
         <!-- location-section -->
-        <section class="location-section">
+        <section class="location-section" id="location-section">
           <div class="container">
             <div class="location-section__inner">
               <div class="location-section__title">
@@ -523,7 +511,7 @@
                 </h2>
               </div>
 
-              <div class="location__row">
+              <div class="location__row row g-3">
                 <div class="col-lg-6">
                   <div class="location__u-box">
                     <h4>Von Stuttgart nach Winnenden / Max-Eyth-Str. 14</h4>
@@ -546,8 +534,8 @@
                     </ul>
                   </div>
                 </div>
-                <div class="col-lg-6">
-                  <div class="location__u-box">
+                <div class="col-lg-6 offset-lg-6">
+                  <div class="location__u-box location__u-box-2">
                     <h4>Von A81 nach Winnenden</h4>
                     <ul class="lk-ul">
                       <li>
@@ -581,15 +569,17 @@
         <!-- location-section-end -->
 
         <!-- know-section -->
-        <section class="know-section">
+        <section class="know-section" id="know-section">
           <div class="container">
             <div class="know-section__inner">
-              <div class="know-section__title">
+              <div class="know-section__title cont-blk cont-blk--center">
                 <h2 class="h2 mb-0">Gut zu wissen</h2>
               </div>
 
               <div class="know-section-content">
-                <h4>Nahverkehr in Stuttgart beginnt 1868</h4>
+                <h4 class="h4 text-uppercase">
+                  Nahverkehr in Stuttgart beginnt 1868
+                </h4>
                 <p>
                   Der Nahverkehr in Stuttgart beginnt 1868 mit einer Pferdebahn.
                   Das Unternehmen Stuttgarter Straßenbahnen AG entsteht 1889
@@ -633,7 +623,7 @@
               <a href="index.html" class="footer-logo">
                 <img src="images/logo.png" alt="" />
               </a>
-              <ul class="contact-ul">
+              <ul class="contact-ul align-items-center">
                 <li>
                   <a
                     href="TEL:+49 7195 95982 0
@@ -660,14 +650,16 @@
               <div class="footer-menu-row">
                 <div class="main-menu">
                   <ul>
-                    <li><a href="#">Für jeden Anlass</a></li>
-                    <li><a href="#">Ein plan der lage</a></li>
-                    <li><a href="#">Gut zu wissen</a></li>
+                    <li><a href="#occation-section">Für jeden Anlass</a></li>
+                    <li><a href="#location-section">Ein plan der lage</a></li>
+                    <li><a href="#know-section">Gut zu wissen</a></li>
                   </ul>
                 </div>
-                <div class="heder-buttons">
-                  <a href="#" class="default-button">Jetzt anfragen</a>
-                  <a href="#" class="default-button default-button--dark"
+                <div class="buttons-menu">
+                  <a href="#" class="default-button button">Jetzt anfragen</a>
+                  <a
+                    href="#"
+                    class="default-button button default-button--white"
                     >Download broschüre
                   </a>
                 </div>

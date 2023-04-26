@@ -60,9 +60,13 @@
       '<span class="fas fa-chevron-right fa-2x"></span>',
     ],
     responsive: {
-      0: {},
-      600: {},
-      1000: {},
+      0: {
+        margin: 10,
+      },
+      600: {
+        margin: 12,
+      },
+      991: {},
     },
   });
   $(".brand-active").owlCarousel({
