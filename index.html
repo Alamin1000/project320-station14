@@ -15,6 +15,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/nice-select.css" />
+    <link rel="stylesheet" href="css/bootstrap-datetimepicker.min.css" />
     <link rel="stylesheet" href="css/default-edit.css" />
     <link rel="stylesheet" type="text/css" href="style.css" />
     <link rel="stylesheet" type="text/css" href="css/responsive.css" />
@@ -395,11 +396,16 @@
                             <div class="icon">
                               <i class="fal fa-calendar-alt"></i>
                             </div>
-                            <select class="in-select">
+                            <input
+                              type="text"
+                              class="in-select form-control"
+                              id="datetimepicker1"
+                            />
+                            <!-- <select class="in-select">
                               <option>Dienstag, 14 Februar 2023</option>
                               <option>Dienstag, 15 Februar 2023</option>
                               <option>Dienstag, 16 Februar 2023</option>
-                            </select>
+                            </select> -->
                             <i class="far fa-chevron-down l-chevron"></i>
                           </div>
                         </div>
@@ -686,10 +692,15 @@
 
     <!-- js -->
     <script src="js/jquery-3.6.0.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.21.0/moment.min.js"
+      type="text/javascript"
+    ></script>
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/jquery.scrollUp.min.js"></script>
     <script src="js/jquery.nice-select.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
+    <script src="js/bootstrap-datetimepicker.min.js"></script>
     <script src="js/main.js"></script>
     <!-- End All Js -->
   </body>

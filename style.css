@@ -704,6 +704,13 @@ p:last-child{
   padding: 0;
   display: inline-block;
   background: transparent;
+  appearance: none;
+  cursor: pointer;
+  text-align: center;
+}
+.sel-button .in-select:focus {
+  outline: none !important;
+  box-shadow: none !important;
 }
 .sel-button .l-chevron {
 

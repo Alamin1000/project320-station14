@@ -108,3 +108,8 @@ $(document).ready(function () {
   // preloader
   $("#preloader").fadeOut(500);
 });
+
+$("#datetimepicker1").datetimepicker({
+  format: "YYYY-MM-dd hh:mm",
+  defaultDate: new Date(),
+});
