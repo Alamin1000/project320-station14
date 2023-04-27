@@ -97,19 +97,19 @@
 })(jQuery);
 
 $(document).ready(function () {
-  // scroll up
-  $(function () {
-    $.scrollUp();
-  });
-
   // nice-select
   $(".nice-select").niceSelect();
 
   // preloader
-  $("#preloader").fadeOut(500);
-});
+  // $("#preloader").fadeOut(500);
 
-$("#datetimepicker1").datetimepicker({
-  format: "YYYY-MM-dd hh:mm",
-  defaultDate: new Date(),
+  //date-picker
+  $("#datetimepicker1").datetimepicker({
+    format: `DD-MMMM-YYYY`,
+    defaultDate: new Date(),
+  });
+  $("#datetimepicker2").datetimepicker({
+    format: `hh:mm a`,
+    defaultDate: new Date(),
+  });
 });

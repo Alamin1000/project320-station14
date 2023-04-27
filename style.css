@@ -707,10 +707,18 @@ p:last-child{
   appearance: none;
   cursor: pointer;
   text-align: center;
+  color: inherit !important;
+  font-size: inherit;
 }
 .sel-button .in-select:focus {
   outline: none !important;
   box-shadow: none !important;
+}
+.in-select-date {
+  width: 160px;
+}
+.in-select-time {
+  width: 75px;
 }
 .sel-button .l-chevron {
 

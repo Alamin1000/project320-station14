@@ -148,6 +148,12 @@
         min-height: 44px;
         gap: 15px;
     }
+    .in-select-date {
+        width: 135px;
+      }
+      .in-select-time {
+        width: 60px;
+      }
     .form__sel-buttons {
         gap: 30px;
         margin-bottom: 13px;

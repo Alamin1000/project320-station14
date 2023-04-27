@@ -8,7 +8,15 @@
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
     <meta name="description" content="Site description will be here" />
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+    <!-- <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" /> -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/4.0.0/flatly/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css" />
     <link
       href="https://kit-pro.fontawesome.com/releases/v5.15.2/css/pro.min.css"
@@ -24,7 +32,7 @@
 
   <body>
     <!-- preloader -->
-    <div id="preloader"></div>
+    <!-- <div id="preloader"></div> -->
     <!-- preloader-end -->
     <!-- main-wrap -->
     <div class="main-wrap">
@@ -398,8 +406,9 @@
                             </div>
                             <input
                               type="text"
-                              class="in-select form-control"
+                              class="in-select in-select-date form-control"
                               id="datetimepicker1"
+                              value="27-April-2023"
                             />
                             <!-- <select class="in-select">
                               <option>Dienstag, 14 Februar 2023</option>
@@ -415,11 +424,17 @@
                             <div class="icon">
                               <i class="fal fa-clock"></i>
                             </div>
-                            <select class="in-select">
+                            <input
+                              type="text"
+                              class="in-select in-select-time form-control"
+                              id="datetimepicker2"
+                              value="09:14"
+                            />
+                            <!-- <select class="in-select">
                               <option>8:30 Uhr</option>
                               <option>9:30 Uhr</option>
                               <option>10:30 Uhr</option>
-                            </select>
+                            </select> -->
                             <i class="far fa-chevron-down l-chevron"></i>
                           </div>
                         </div>
@@ -691,13 +706,27 @@
     <!-- main-wrap -->
 
     <!-- js -->
-    <script src="js/jquery-3.6.0.min.js"></script>
+    <!-- <script src="js/jquery-3.6.0.min.js"></script> -->
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.21.0/moment.min.js"
       type="text/javascript"
     ></script>
-    <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="js/jquery.scrollUp.min.js"></script>
+    <!-- <script src="js/bootstrap.bundle.min.js"></script> -->
     <script src="js/jquery.nice-select.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/bootstrap-datetimepicker.min.js"></script>
