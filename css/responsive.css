@@ -399,6 +399,7 @@
     .buttons-menu {
         flex-wrap: wrap;
         gap: 15px;
+        justify-content: center;
     }
     .f-menu {
         gap: 10px;
