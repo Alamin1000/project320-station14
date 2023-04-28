@@ -45,6 +45,12 @@
             <li><a href="#location-section">Ein plan der lage</a></li>
             <li><a href="#know-section">Gut zu wissen</a></li>
           </ul>
+          <div class="buttons-menu mt-3">
+            <a href="#" class="default-button button">Jetzt anfragen</a>
+            <a href="#" class="default-button button default-button--white"
+              >Download broschüre
+            </a>
+          </div>
         </div>
       </div>
       <div class="offcanvas-overlay"></div>
@@ -109,13 +115,25 @@
           </div>
           <div class="hero-sht">
             <h4 class="mb-0">DATUM</h4>
-            <a href="#contact-section" class="sel-button sel-button--white">
+            <!-- <a href="#contact-section" class="sel-button sel-button--white">
               <div class="icon">
                 <i class="fal fa-calendar--alt"></i>
               </div>
               <span class="in-select">Dienstag, 14 Februar 2023</span>
               <i class="far fa-chevron-down l-chevron"></i>
-            </a>
+            </a> -->
+            <div class="sel-button">
+              <div class="icon">
+                <i class="fal fa-calendar-alt"></i>
+              </div>
+              <input
+                type="text"
+                class="in-select in-select-date form-control"
+                id="datetimepicker1"
+                value="27-April-2023"
+              />
+              <i class="far fa-chevron-down l-chevron"></i>
+            </div>
             <a href="#contact-section" class="sel-button">Jetzt anfragen</a>
           </div>
         </section>
@@ -534,7 +552,7 @@
 
               <div class="location__row row g-3">
                 <div class="col-lg-6">
-                  <div class="location__u-box">
+                  <div class="location__u-box mb-xl-3">
                     <h4>Von Stuttgart nach Winnenden / Max-Eyth-Str. 14</h4>
                     <ul class="lk-ul">
                       <li>Auf die B14 Richtung Waiblingen/Fellbach fahren</li>
@@ -554,8 +572,11 @@
                       <li>Der Büroeingang befindet sich links am Gebäude</li>
                     </ul>
                   </div>
+                  <a href="#" class="default-button mt-4"
+                    >Planen Sie Ihre Route</a
+                  >
                 </div>
-                <div class="col-lg-6 offset-lg-6">
+                <div class="col-lg-6 offset-lg-6 mt-lg-0 mt-4">
                   <div class="location__u-box location__u-box-2">
                     <h4>Von A81 nach Winnenden</h4>
                     <ul class="lk-ul">
